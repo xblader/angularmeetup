@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { UpdateService } from './update.service';
 
 @Component({
   selector: 'app-root',
@@ -6,6 +7,11 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'serviveworker';
+
+  constructor(private update: UpdateService){
+
+  }
+  
+  title = 'serviveworker teste';
   //title = 'teste de tewte';
 }

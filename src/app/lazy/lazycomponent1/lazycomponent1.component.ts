@@ -7,7 +7,7 @@ import { Component, OnInit } from '@angular/core';
 })
 export class Lazycomponent1Component implements OnInit {
 
-  dynamic: string = "lazy load com mudanca no servidor";
+  dynamic: string = "lazy load com mudanca no servidor hahahah";
   constructor() { }
 
   ngOnInit() {
