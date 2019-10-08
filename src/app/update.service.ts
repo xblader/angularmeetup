@@ -6,7 +6,7 @@ import { SwUpdate } from '@angular/service-worker';
 export class UpdateService {
   constructor(private swUpdate: SwUpdate) {
     this.swUpdate.available.subscribe(evt => {
-      // an update is available, add some logic here.
+      // uma atualização da aplicação está disponível...
       console.log(evt);
     });
   }

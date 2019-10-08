@@ -1,0 +1,21 @@
+button{
+    margin-right: 5px;
+    border-radius: 5px;
+    border: 1px solid #98a1c1;
+    padding: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    cursor: pointer;
+    background-image: linear-gradient(to right, rgba(145, 168, 191, 0.59), rgb(67, 114, 202));
+}
+ul.lista{
+    list-style: none;
+    padding: 0;
+}
+
+li{
+    padding: 5px 10px;
+    background-color: #EEEEEE;
+    border: 1px solid #DDDDDD;
+    display: inline-block;
+}
