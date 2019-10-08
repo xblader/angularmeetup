@@ -1,0 +1,11 @@
+div{
+    border : 1px solid black;
+    height: 400px;
+    width:  400px;
+}
+span{
+    padding: 5px 10px;
+    background-color: #EEEEEE;
+    border: 1px solid #DDDDDD;
+    display: inline-block;
+}

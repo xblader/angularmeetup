@@ -8,11 +8,21 @@ import { HomeComponent } from './home/home.component';
 import { AppRoutingModule } from './app-routing.module';
 import { UpdateService } from './update.service';
 import { HomeService } from './home/home.service';
+import { DarthVaderComponent } from './pai-filho/darth-vader/darth-vader.component';
+import { LukeSkywalkerComponent } from './pai-filho/luke-skywalker/luke-skywalker.component';
+import { DirtyCheckingComponent } from './dirty-checking/dirty-checking.component';
+import { DiretivaComponent } from './diretiva/diretiva.component';
+import { MouseOverDirective } from './diretiva/mouseover.directive';
 
 @NgModule({
   declarations: [
     AppComponent,
-    HomeComponent
+    HomeComponent,
+    DarthVaderComponent,
+    LukeSkywalkerComponent,
+    DirtyCheckingComponent,
+    DiretivaComponent,
+    MouseOverDirective
   ],
   imports: [
     BrowserModule,
