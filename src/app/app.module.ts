@@ -13,6 +13,7 @@ import { LukeSkywalkerComponent } from './pai-filho/luke-skywalker/luke-skywalke
 import { DirtyCheckingComponent } from './dirty-checking/dirty-checking.component';
 import { DiretivaComponent } from './diretiva/diretiva.component';
 import { MouseOverDirective } from './diretiva/mouseover.directive';
+import { CheckFilhoComponent } from './dirty-checking/check-filho/check-filho.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { MouseOverDirective } from './diretiva/mouseover.directive';
     LukeSkywalkerComponent,
     DirtyCheckingComponent,
     DiretivaComponent,
-    MouseOverDirective
+    MouseOverDirective,
+    CheckFilhoComponent
   ],
   imports: [
     BrowserModule,
