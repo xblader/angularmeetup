@@ -14,6 +14,7 @@ import { DirtyCheckingComponent } from './dirty-checking/dirty-checking.componen
 import { DiretivaComponent } from './diretiva/diretiva.component';
 import { MouseOverDirective } from './diretiva/mouseover.directive';
 import { CheckFilhoComponent } from './dirty-checking/check-filho/check-filho.component';
+import { VersionCheckService } from './version-check.service';
 
 @NgModule({
   declarations: [
@@ -32,7 +33,7 @@ import { CheckFilhoComponent } from './dirty-checking/check-filho/check-filho.co
     HttpClientModule,
     ServiceWorkerModule.register('ngsw-worker.js', { enabled: environment.production })
   ],
-  providers: [UpdateService,HomeService],
+  providers: [UpdateService,HomeService, VersionCheckService],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
